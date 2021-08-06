@@ -143,19 +143,32 @@ a:hover path {
 
 @media (max-width: 550px) {
 	.card {
-		height: 60px;
-		width: 60px;
+		max-height: 80px;
 		max-width: 80px;
+		min-height: 60px;
+		min-height: 60px;
 	}
 	html {
-		font-size: 10px;
+		font-size: 16px;
 	}
 	h1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
+	}
+
+	.card h2 {
+		font-size: 2.5rem;
+	}
+
+	.section-center {
+		padding: 6rem;
 	}
 
 	.hills {
 		width: 300%;
 		left: -50%;
+	}
+	.attribution {
+		width: 80%;
+		text-align: center;
 	}
 }
